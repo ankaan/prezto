@@ -89,7 +89,7 @@ function prompt_ankan_setup {
   if [ $USER = root ]; then
       _prompt_ankan_usercolor="${_prompt_ankan_colors[4]}"
   else
-      _prompt_ankan_usercolor="${_prompt_ankan_colors[2]}"
+      _prompt_ankan_usercolor="${_prompt_ankan_colors[1]}"
   fi
 
   # Define prompts.
